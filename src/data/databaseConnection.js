@@ -1,9 +1,7 @@
 const mongoose = require("mongoose");
-// require("dotenv-safe").config();
+require("dotenv").config();
 
-
-// const MONGODB = process.env.MONGODB_URL;
-const MONGODB = "mongodb://localhost:27017/eserfn"
+const MONGODB = process.env.MONGODB_URI || process.env.MONGODB_URL
 
 const connect = () => {
     mongoose.connect(MONGODB, {
