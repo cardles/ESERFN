@@ -33,17 +33,15 @@ const postNewMemory = async (req, res) => {
 const deleteMemoryById = (req, res) => {
     const inputId = req.params.id;
 
-    try {
-        Memory.findByIdAndRemove(inputId, (err) => {
-            if (err) {
-                res.status(404).json({ mensagem: "Memória não encontrada. Por favor, digite um id válido." })
-            } else {
-                res.status(200).json({ mensagem: "Memória apagada com sucesso!" })
-            }
-        })
-    } catch (err) {
-        res.status(500).json({ mensagem: err.message })
-    }
+
+    Memory.findByIdAndRemove(inputId, (err) => {
+        if (err) {
+            res.status(404).json({ mensagem: "Memória não encontrada. Por favor, digite um id válido." })
+        } else {
+            res.status(200).json({ mensagem: "Memória apagada com sucesso!" })
+        }
+    })
+
 
 };
 
