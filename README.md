@@ -6,25 +6,25 @@ API que registra memórias de mulheres cisgênero/transgênero no território ur
 ## rotas
 
 ### > index
-{GET}/inicio    
-Retorna mensagem de boas-vindas, regras de uso e explicação das informações requisitadas no cadastro.  
+[x] {GET}/inicio    
+Retorna nome da API, mensagem de boas-vindas, como usar a primeira vez e direcionamento para a documentação.  
 HTTP 200 OK  
 
-{GET}/sobre  
+[x] {GET}/sobre  
 Retorna mensagem sobre o intuito do projeto, o impacto que deseja causar e por quê ele existe. 
 HTTP 200 OK  
 
-{GET}/contato  
+[x] {GET}/contato  
 Retorna mensagem com informações de contato da autora deste projeto, como nome, e-mail e LinkedIn.  
 HTTP 200 OK  
 
 
 ### > my memories
-{POST}/minhas-memorias/criar  
+[x] {POST}/minhas-memorias/criar  
 Registra nova memória com informações via body.  
 HTTP 201 CREATED  
 
-{DELETE}/minhas-memorias/apagar/:id  
+[x] {DELETE}/minhas-memorias/apagar/:id  
 Exclui memória por id.  
 HTTP 200 OK   
 

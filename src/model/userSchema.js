@@ -8,7 +8,9 @@ const userSchema = new mongoose.Schema({
     orientacaoSexual:  { type: String, required: true },
     genero:  { type: String, required: true },
     raca:  { type: String, required: true }
-})
+}, 
+{ versionKey: false }
+);
 
 
 module.exports = mongoose.model("user", userSchema);

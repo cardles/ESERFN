@@ -1,8 +1,8 @@
 const express = require("express");
 const cors = require("cors");
-require("dotenv-safe").config();
 
-const db = require("./src/data/databaseConnection"); //verificar se está correto
+
+const db = require("./data/databaseConnection"); 
 db.connect();
 
 const app = express();

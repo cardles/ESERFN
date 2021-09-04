@@ -8,9 +8,11 @@ const memorySchema = new mongoose.Schema({
     estado: { type: String, required: true },
     categoriaDaMemoria: { type: String, required: true },
     sentidoAtivado: { type: String, required: true },
-    dataDaMemoria: { type: Date, required: true }, //rever, se necessário
+    dataDaMemoria: { type: String, required: true }, //rever, se necessário
     descricao: { type: String } //opcional
-});
+}, 
+{ versionKey: false }
+);
 
 
 module.exports = mongoose.model("memory", memorySchema);
