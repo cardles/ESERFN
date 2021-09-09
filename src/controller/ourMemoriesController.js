@@ -1,9 +1,10 @@
 const Memories = require("../model/memorySchema");
-// const mongoose = require("mongoose");
+const mongoose = require("mongoose");
 
 
-const getAllMemories = (req, res) => {
-
+const getAllMemories = async (req, res) => {
+    const allMemories = await Memories.find()
+    res.status(200).json(allMemories)
 };
 
 const getMemoriesByCity = (req, res) => {
