@@ -7,7 +7,7 @@ require("dotenv").config();
 
 const getMyMemories = async (req, res) => {
 
-    const memoryFound = await Memory.find({ usuaria: req.userId });
+    const memoryFound = await Memory.find();
 
     memoryFound.forEach(oneMemory => {
         const authVerification = oneMemory.usuaria == req.userId;
