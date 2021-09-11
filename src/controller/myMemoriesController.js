@@ -6,21 +6,22 @@ require("dotenv").config();
 
 
 const getMyMemories = async (req, res) => {
+    
+    const memoryFound = await Memory.find(err => {
+        if (err) {
+            res.status(500).json({ message: err.message })
+        } else {
+            memoryFound.forEach(oneMemory => {
+                let authVerification = oneMemory.usuaria == req.userId;
+                if (!authVerification){
+                    return res.status(401).json({ message: "Falha na autorização." });
+                }
 
-    try {
-        const memoryFound = await Memory.find();
-        
-        memoryFound.forEach(oneMemory => {
-            const authVerification = oneMemory.usuaria == req.userId;
-            if (!authVerification){
-                return res.status(401).json({ message: "Falha na autorização." });
-            }
-        });
-        res.status(200).json(memoryFound);
-    } catch (err) {
-        res.status(500).json({ message: err.message });
-    };
-
+                res.status(200).json(memoryFound);
+            });
+        }
+    });
+    
 };
 
 
