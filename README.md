@@ -6,7 +6,7 @@ API que registra memórias de mulheres cisgênero/transgênero no território ur
 ## rotas
 
 ### > index
-[x] {GET}/inicio    
+[x] {GET}/  
 Retorna nome da API, mensagem de boas-vindas, como usar a primeira vez e direcionamento para a documentação.  
 HTTP 200 OK  
 
@@ -20,29 +20,33 @@ HTTP 200 OK
 
 
 ### > my memories
-[x] {POST}/minhas-memorias/criar  
+[x]{GET}/minhas-memorias
+Retorna todas as memórias da usuária.
+HTTP 200 OK
+
+[x]{POST}/minhas-memorias/criar  
 Registra nova memória com informações via body.  
 HTTP 201 CREATED  
 
-[x] {DELETE}/minhas-memorias/apagar/:id  
+[x]{DELETE}/minhas-memorias/apagar/:id  
 Exclui memória por id.  
 HTTP 200 OK   
 
-{PUT}/minhas-memorias/editar/:id  
+[x]{PUT}/minhas-memorias/editar/:id  
 Permite editar todo o corpo do item por id.  
 HTTP 200 OK  
 
 
 ### > our memories
-{GET}/nossas-memorias  
+[x]{GET}/nossas-memorias  
 Retorna todas as memórias já cadastradas no banco de dados.  
 HTTP 200 OK 
 
-{GET}/nossas-memorias/cidade  
+[x]{GET}/nossas-memorias/cidade  
 Retorna as memórias registradas na cidade requisitada.  
 HTTP 200 OK  
 
-{GET}/nossas-memorias/:id  
+[x]{GET}/nossas-memorias/:id  
 Retorna uma memória especificada por id.  
 HTTP 200 OK 
 

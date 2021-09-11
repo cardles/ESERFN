@@ -1,9 +1,7 @@
 const mongoose = require("mongoose");
 require("dotenv").config();
 
-const MONGODB = process.env.MONGODB_URI
-// process.env.MONGODB_URI ||
-// senha antiga: @Arch2dev*
+const MONGODB = process.env.MONGODB_URI;
 
 const connect = () => {
     mongoose.connect(MONGODB, {

@@ -1,7 +1,13 @@
 const mongoose = require("mongoose");
+const userSchema = require("./userSchema");
 
 const memorySchema = new mongoose.Schema({
-    _id: mongoose.Schema.Types.ObjectId,
+    _id: { type: mongoose.Schema.Types.ObjectId },
+    usuaria: {
+        type: mongoose.Schema.Types.ObjectId,
+        ref: "user",
+        require: true
+    },
     titulo: { type: String }, //opcional
     endereco: { type: String, required: true },
     cidade: { type: String, required: true },

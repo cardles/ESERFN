@@ -3,7 +3,7 @@ const controller = require("../controller/indexController");
 
 const router = express.Router();
 
-router.get("/inicio", controller.getStart);
+router.get("/", controller.getStart);
 router.get("/sobre", controller.getAbout);
 router.get("/contato", controller.getContact);
 
