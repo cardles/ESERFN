@@ -7,7 +7,7 @@ require("dotenv").config();
 
 const getMyMemories = async (req, res) => {
     
-    const memoryFound = await Memory.find(err => {
+    const memoryFound = await Memory.find({}, err => {
         if (err) {
             res.status(500).json({ message: err.message })
         } else {
