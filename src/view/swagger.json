@@ -1,0 +1,474 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "title": "E se essas ruas fossem nossas?",
+        "description": "API que registra memórias de mulheres cisgênero/transgênero no território urbano (RMSP e RMR) com a finalidade de produzir e disponibilizar um mapeamento coletivo no qual as memórias estarão geoespacializadas e eternizadas, a fim de gerar um sentimento de pertencimento à cidade.",
+        "contact": {
+            "email": "cardles.dev@gmail.com"
+        },
+        "version": "1.0.0"
+    },
+    "servers": [
+        {
+            "url": "http://localhost:8080",
+            "description": "API de teste"
+        },
+        {
+            "url": "https://eserfn.herokuapp.com/",
+            "description": "API de produção"
+        }
+    ],
+    "paths": {
+        "/": {
+            "get": {
+                "summary": "página inicial",
+                "description": "INSTRUÇÕES: para visualizar a mensagem inicial de apresentação desta API, pressione o botão 'try it out' e, logo após, o botão 'execute'. As mensagens irão aparecer logo abaixo de 'response body', na caixa de código.",
+                "tags": [
+                    "Início"
+                ],
+                "responses": {
+                    "200": {
+                        "description": "OK"
+                    }
+                }
+            }
+        },
+        "/sobre": {
+            "get": {
+                "summary": "sobre a API",
+                "description": "INSTRUÇÕES: para estar a par das questões que levaram à criação desta API e qual é a sua missão, pressione o botão 'try it out' e, logo após, o botão 'execute'. As mensagens irão aparecer logo abaixo de 'response body', na caixa de código.",
+                "tags": [
+                    "Início"
+                ],
+                "responses": {
+                    "200": {
+                        "description": "OK"
+                    }
+                }
+            }
+        },
+        "/contato": {
+            "get": {
+                "summary": "fale comigo",
+                "description": "INSTRUÇÕES: para saber mais sobre mim, a criadora deste projeto, e trocar uma ideia comigo, basta pressionar o botão 'try it out' e, logo após, o botão 'execute'. As mensagens irão aparecer logo abaixo de 'response body', na caixa de código.",
+                "tags": [
+                    "Início"
+                ],
+                "responses": {
+                    "200": {
+                        "description": "OK"
+                    }
+                }
+            }
+        },
+        "/usuaria/criar": {
+            "post": {
+                "summary": "crie uma conta",
+                "description": "INSTRUÇÕES: para registrar suas memórias, editá-las e excluí-las você precisa criar uma conta e, para isso, pressione o botão 'try it out' e insira os dados que são solicitados. Depois disso, clique no botão 'execute'. As mensagens devem aparecer logo abaixo de 'response body', na caixa de código.",
+                "tags": [
+                    "Usuárias"
+                ],
+                "requestBody": {
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "$ref": "#/components/schemas/User"
+                            },
+                            "examples": {
+                                "User": {
+                                    "value": {
+                                        "nome": "Insira seu nome completo.",
+                                        "email": "Insira um e-mail válido.",
+                                        "senha": "Crie uma senha.",
+                                        "orientacaoSexual": "Lésbica/Bissexual/Heterossexual/Outro",
+                                        "genero": "Cisgênero/Transgênero/Outro",
+                                        "raca": "Branca/Preta/Parda/Amarela/Indígena"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "responses": {
+                    "201": {
+                        "description": "Created",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "type": "object",
+                                    "$ref": "#/components/schemas/User"
+                                }
+                            }
+                        }
+                    },
+                    "400": {
+                        "description": "Bad request"
+                    }
+                }
+            }
+        },
+        "/usuaria/entrar": {
+            "post": {
+                "summary": "faça login",
+                "description": "INSTRUÇÕES: se você já possui uma conta e quer acessá-la, pressione o botão 'try it out' e insira seu e-mail e senha. Depois disso, clique no botão 'execute'. A mensagem com o token deve aparecer logo abaixo de 'response body', na caixa de código. Para o próximo passo, copie o token, que é um código grande com letras e números entre aspas, ele vai permitir que você acesse as próximas rotas.",
+                "tags": [
+                    "Usuárias"
+                ],
+                "requestBody": {
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "$ref": "#/components/schemas/User"
+                            },
+                            "examples": {
+                                "User": {
+                                    "value": {
+                                        "email": "Insira seu e-mail.",
+                                        "senha": "Insira sua senha."
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "responses": {
+                    "200": {
+                        "description": "OK"
+                    },
+                    "401": {
+                        "description": "Unauthorized"
+                    }
+                }
+            }
+        },
+        "/minhas-memorias": {
+            "get": {
+                "summary": "ver as minhas memórias",
+                "description": "INSTRUÇÕES: se você deseja visualizar as memórias que você já criou você vai precisar ter feito o login na rota 'faça login' e o processo de autorização a seguir: é simples, basta clicar no símbolo de cadeado à direita desta rota ou subir até o topo da página e clicar no botão 'authorize'. Irá abrir uma caixa de diálogo, onde você precisa colar, no campo 'value', seu código token, que parece quando você faz login em sua conta. Após isso, clique em 'authorize' e depois em 'close'. Prontinho, você está logada e autorizada agora, podendo acessar o conteúdo completo! Agora é só pressionar o botão 'try it out' e, logo após, clicar no botão 'execute'. As memórias devem aparecer logo abaixo de 'response body', na caixa de código.",
+                "tags": [
+                    "Minhas memórias"
+                ],
+                "security": [
+                    {
+                        "bearerAuth": []
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "OK"
+                    },
+                    "400": {
+                        "description": "Bad request"
+                    },
+                    "401": {
+                        "description": "Unauthorized"
+                    }
+                }
+            }
+        },
+        "/minhas-memorias/criar": {
+            "post": {
+                "summary": "registrar uma memória",
+                "description": "INSTRUÇÕES: para adicionar uma nova memória, você precisa ter feito o login e o processo de autorização. Se você ainda não fez essas etapas, volte em 'faça login' e/ou 'ver as minhas memórias'. Se já está tudo certo, pressione o botão 'try it out' e insira os dados que são solicitados. Depois disso, clique no botão 'execute'. A memória criada deve aparecer logo abaixo de 'response body', na caixa de código.",
+                "tags": [
+                    "Minhas memórias"
+                ],
+                "security": [
+                    {
+                        "bearerAuth": []
+                    }
+                ],
+                "requestBody": {
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "$ref": "#/components/schemas/Memory"
+                            },
+                            "examples": {
+                                "Memory": {
+                                    "value": {
+                                        "titulo": "Insira um título para a sua memória.",
+                                        "endereco": "Insira o nome da rua e, se possível, o número em que a memória ocorreu",
+                                        "cidade": "Insira a cidade em que a memória ocorreu.",
+                                        "estado": "SP/PE",
+                                        "categoriaDaMemoria": "Coletiva/Individual/Amorosa/Amigável/Familiar",
+                                        "sentidoAtivado": "Visão/Oufato/Audição/Tato/Paladar",
+                                        "dataDaMemoria": "Insira uma data aproximada no formato: 01/2000",
+                                        "descricao": "Se você se sentir a vontade, descreva como foi esse momento e por que ele te marcou."
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "responses": {
+                    "400": {
+                        "description": "Bad request"
+                    },
+                    "401": {
+                        "description": "Unauthorized"
+                    },
+                    "201": {
+                        "description": "Created",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "type": "object",
+                                    "$ref": "#/components/schemas/Memory"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "/minhas-memorias/editar/{id}": {
+            "put": {
+                "summary": "editar uma memória",
+                "description": "INSTRUÇÕES: para editar uma memória específica, você precisa ter feito o login, o processo de autorização e do id dela. Se você ainda não fez essas etapas, volte em 'faça login' e/ou 'ver as minhas memórias' - onde é possível visualizar a memória que você quer editar e copiar o código referente ao '_id' dela. Se já está tudo certo, pressione o botão 'try it out', insira o id no campo solicitado e modifique os dados que desejar, excluindo os que não foram alterados. Depois disso, clique no botão 'execute'. A memória editada devem aparecer logo abaixo de 'response body', na caixa de código.",
+                "tags": [
+                    "Minhas memórias"
+                ],
+                "security": [
+                    {
+                        "bearerAuth": []
+                    }
+                ],
+                "parameters": [
+                    {
+                        "name": "id",
+                        "in": "path",
+                        "description": "Digite o id da memória que deseja editar.",
+                        "required": true
+                    }
+                ],
+                "requestBody": {
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "$ref": "#/components/schemas/Memory"
+                            },
+                            "examples": {
+                                "Memory": {
+                                    "value": {
+                                        "titulo": "Modifique o título",
+                                        "endereco": "Modifique o endereço",
+                                        "cidade": "Modifique a cidade",
+                                        "estado": "Modifique o estado",
+                                        "categoriaDaMemoria": "Modifique a categoria",
+                                        "sentidoAtivado": "Modifique o sentido",
+                                        "dataDaMemoria": "Modifique a data",
+                                        "descricao": "Modifique a descrição"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "responses": {
+                    "401": {
+                        "description": "Unauthorized"
+                    },
+                    "400": {
+                        "description": "Bad request"
+                    },
+                    "200": {
+                        "description": "OK",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "type": "object",
+                                    "$ref": "#/components/schemas/Memory"
+                                }
+                            }
+                        }
+                    },
+                    "500": {
+                        "description": "Internal server error"
+                    }
+                }
+            }
+        },
+        "/minhas-memorias/apagar/{id}": {
+            "delete": {
+                "summary": "apagar uma memória",
+                "description": "INSTRUÇÕES: para apagar uma determinada memória, você precisa ter feito o login, o processo de autorização e do id dela. Se você ainda não fez essas etapas, volte em 'faça login' e/ou 'ver as minhas memórias' - onde é possível visualizar a memória que você quer editar e copiar o código referente ao '_id' dela. Se já está tudo certo, pressione o botão 'try it out' e insira o id no campo solicitado. Depois disso, clique no botão 'execute'. As mensagens devem aparecer logo abaixo de 'response body', na caixa de código.",
+                "tags": [
+                    "Minhas memórias"
+                ],
+                "security": [
+                    {
+                        "bearerAuth": []
+                    }
+                ],
+                "parameters": [
+                    {
+                        "name": "id",
+                        "in": "path",
+                        "description": "Digite o id da memória que deseja apagar.",
+                        "required": true
+                    }
+                ],
+                "responses": {
+                    "401": {
+                        "description": "Unauthorized"
+                    },
+                    "200": {
+                        "description": "OK"
+                    },
+                    "500": {
+                        "description": "Internal server error"
+                    }
+                }
+            }
+        },
+        "/nossas-memorias": {
+            "get": {
+                "summary": "ver todas as memórias",
+                "description": "INSTRUÇÕES: para visualizar todas as memórias que existem em nesta API, pressione o botão 'try it out' e, logo após, o botão 'execute'. As memórias devem aparecer logo abaixo de 'response body', na caixa de código.",
+                "tags": [
+                    "Nossas memórias"
+                ],
+                "responses": {
+                    "200": {
+                        "description": "OK"
+                    },
+                    "404": {
+                        "description": "Not found"
+                    }
+                }
+            }
+        },
+        "/nossas-memorias/cidade": {
+            "get": {
+                "summary": "filtrar memórias por cidade",
+                "description": "INSTRUÇÕES: para filtrar memórias por cidade, pressione o botão 'try it out' e insira o nome da cidade no campo solicitado. Depois disso, clique no botão 'execute'. As memórias filtradas devem aparecer logo abaixo de 'response body', na caixa de código.",
+                "tags": [
+                    "Nossas memórias"
+                ],
+                "parameters": [
+                    {
+                        "name": "cidade",
+                        "in": "query",
+                        "description": "Digite o nome da cidade que deseja buscar.",
+                        "required": true
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "OK",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "type": "array",
+                                    "items": {
+                                        "$ref": "#/components/schemas/Memory"
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "404": {
+                        "description": "Not found"
+                    }
+                }
+            }
+        },
+        "/nossas-memorias/{id}": {
+            "get": {
+                "summary": "pesquisar uma memória",
+                "description": "INSTRUÇÕES: para pesquisar uma memória específica, você precisa ter seu id. Se você não souber, pode voltar à rota 'ver todas as memórias', encontrá-la e copiar seu id, ou mesmo em 'ver as minhas memórias'. Com o id copiado, pressione o botão 'try it out' e insira o insira no campo solicitado. Depois disso, clique no botão 'execute'. A memória que deseja deve aparecer logo abaixo de 'response body', na caixa de código.",
+                "tags": [
+                    "Nossas memórias"
+                ],
+                "parameters": [
+                    {
+                        "name": "id",
+                        "in": "path",
+                        "description": "Digite o id da memória que deseja buscar.",
+                        "required": true
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "OK",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "type": "object",
+                                    "$ref": "#/components/schemas/Memory"
+                                }
+                            }
+                        }
+                    },
+                    "404": {
+                        "description": "Not found"
+                    }
+                }
+            }
+        }
+    },
+    "components": {
+        "schemas": {
+            "Memory": {
+                "type": "object",
+                "properties": {
+                    "titulo": {
+                        "type": "string"
+                    },
+                    "endereco": {
+                        "type": "string"
+                    },
+                    "cidade": {
+                        "type": "string"
+                    },
+                    "estado": {
+                        "type": "string"
+                    },
+                    "categoriaDaMemoria": {
+                        "type": "string"
+                    },
+                    "sentidoAtivado": {
+                        "type": "string"
+                    },
+                    "dataDaMemoria": {
+                        "type": "string"
+                    },
+                    "descricao": {
+                        "type": "string"
+                    }
+                }
+            },
+            "User": {
+                "type": "object",
+                "properties": {
+                    "nome": {
+                        "type": "string"
+                    },
+                    "email": {
+                        "type": "string"
+                    },
+                    "senha": {
+                        "type": "string"
+                    },
+                    "orientacaoSexual": {
+                        "type": "string"
+                    },
+                    "genero": {
+                        "type": "string"
+                    },
+                    "raca": {
+                        "type": "string"
+                    }
+                }
+            }
+        },
+        "securitySchemes": {
+            "bearerAuth": {
+                "type": "http",
+                "scheme": "bearer",
+                "bearerFormat": "JWT"
+            }
+        }
+    }
+}

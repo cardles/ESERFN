@@ -22,6 +22,13 @@ const postNewUser =  async (req, res) => {
         raca
     });
 
+    
+    const alreadyExists = await User.find({ email: inputNewUser.email })
+
+    if (alreadyExists.length > 0) {
+        return res.status(409).json({ message: "E-mail inválido! Usuário já existe em nosso cadastro." })
+    }
+
     try {
         const saveNewUser = await inputNewUser.save();
         res.status(201).json({
@@ -45,7 +52,7 @@ const postLogin = async (req, res) => {
     const userFound = await User.findOne({ email: inputEmail });
 
     if (!userFound) {
-        return res.status(404).json({ message: "E-mail ou senha incorretos. Por favor, tente novamente." });
+        return res.status(401).json({ message: "E-mail ou senha incorretos. Por favor, tente novamente." });
     };
 
     let validPassword = bcrypt.compareSync(inputSenha, userFound.senha);

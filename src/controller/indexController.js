@@ -11,7 +11,7 @@ const getAbout = (req, res) => {
     res.status(200).json({
         problema: "As opressões de gênero, classe, raça e sexualidade compõem uma cultura que se reflete no espaço urbano: a cultura da exclusão. Diante disso, as mulheres tem maior dificuldade de deslocamento, menos acesso aos espaços públicos - o que gera mais segregação socioespacial e menor representatividade e identificação.",
         OD2017: "A Pesquisa de Origem e Destino feita pelo Metrô em 2017 indica que, no geral, mulheres se deslocam menos que homens e percorrem distâncias mais curtas. O grau de instrução, a renda, o local de residência e atribuições familiares são fatores que restrigem o deslocamento das mulheres às proximidades de sua casa, geralmente utilizando transporte público ou se locomovendo a pé.",
-        solucao: "Reverter as estruturas sociais e, consequentemente, a territorialidade já imposta é um papel à longo prazo. Aos poucos, as mulheres tem vivenciado mais o espaço público e, como forma de incentivo e com o objetivo de gerar maior pertencimento e identificação com esses espaços, para que possamos ocupá-los cada vez mais, essa API foi criada."
+        solucao: "Reverter as estruturas sociais e, consequentemente, a territorialidade já imposta é um plano à longo prazo. Aos poucos, as mulheres tem vivenciado mais o espaço público e, como forma de incentivo e com o objetivo de gerar maior pertencimento e identificação com esses espaços, para que possamos ocupá-los cada vez mais, essa API foi criada."
     })
 };
 
