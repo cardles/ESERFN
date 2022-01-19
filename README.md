@@ -12,11 +12,10 @@
 <h1 align="center">
   <img src="public/images/eserfn_logo.png" alt="duas mãos criando manipulando um mapa e as iniciais do nome do projeto." width="750">
   <p align="center">E se essas ruas fossem nossas?</p>
-  <p align="center">O pertencimento feminino ao espaço público</p>
 </h1>
-<h2 align="center">
+<h3 align="center">
   <p>O pertencimento feminino ao espaço público</p>
-</h2>
+</h3>
 
 > API que registra memórias de mulheres cisgênero/transgênero no território urbano (RMSP e RMR) com a finalidade de produzir e disponibilizar um mapeamento coletivo no qual as memórias estarão geoespacializadas e eternizadas, a fim de gerar um sentimento de pertencimento à cidade.
 > Status: **Concluído** :heavy_check_mark:
