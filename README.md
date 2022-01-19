@@ -3,8 +3,8 @@
     <a href="https://eserfn.herokuapp.com/"><img alt="Deploy on Heroku" src="https://img.shields.io/badge/deploy-heroku.com-blueviolet">
     <a href="https://www.mongodb.com/cloud/atlas"><img alt="Database MongoDB" src="https://img.shields.io/badge/database-mongodb.com-green">
     <a href="https://nodejs.org/pt-br/"><img alt="Node version" src="https://img.shields.io/badge/node-v12.18.3-blueviolet">
-    <img alt="GitHub Repo Size" src="https://img.shields.io/github/repo-size/cardles/ESERFN -green">
-    <img alt="GitHub Last Commit" src="https://img.shields.io/github/last-commit/cardles/ESERFN -blueviolet">
+    <img alt="GitHub Repo Size" src="https://img.shields.io/github/repo-size/cardles/ESERFN">
+    <img alt="GitHub Last Commit" src="https://img.shields.io/github/last-commit/cardles/ESERFN">
     <img alt="GitHub License" src="https://img.shields.io/badge/License-MIT-green.svg">
   </a>
 </p>
