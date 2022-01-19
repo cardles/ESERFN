@@ -5,7 +5,7 @@
     <a href="https://nodejs.org/pt-br/"><img alt="Node version" src="https://img.shields.io/badge/node-v12.18.3-blue">
     <img alt="GitHub Repo Size" src="https://img.shields.io/github/repo-size/cardles/ESERFN">
     <img alt="GitHub Last Commit" src="https://img.shields.io/github/last-commit/cardles/ESERFN">
-    <img alt="GitHub License" src="https://img.shields.io/github/cardles/ESERFN/blob/main/LICENSE.txt">
+    <img alt="GitHub License" src="https://img.shields.io/github/cardles/ESERFN/blob/main?logo=mit">
   </a>
 </p>
 
