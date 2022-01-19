@@ -10,7 +10,7 @@
 </p>
 
 <h1 align="center">
-  <img src="public/images/eserfn_logo.png" alt="duas mãos criando manipulando um mapa e as iniciais do nome do projeto." width="700">
+  <img src="public/images/eserfn_logo.png" alt="duas mãos criando manipulando um mapa e as iniciais do nome do projeto." width="800">
 <p align="center">E se essas ruas fossem nossas?<p>
 </h1>
 <h2 align="center">O pertencimento feminino ao espaço público</h2>
