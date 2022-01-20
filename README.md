@@ -77,21 +77,21 @@ Dito isto, reverter as estruturas sociais e, consequentemente, a territorialidad
 ## **Instruções para instalação e contribuições no projeto**
       
 ```
-- Faça um "fork" do projeto;
+1. Faça um "fork" do projeto;
 
-- Copie o endereço do fork realizado e, no prompt de comando da sua máquina, realize o clone do projeto;
+2. Copie o endereço do fork realizado e, no prompt de comando da sua máquina, realize o clone do projeto;
 
-- Crie uma branch para realizar suas contribuições;
+3. Crie uma branch para realizar suas contribuições;
 
-- Instale as dependências necessárias à execução da API através do comando "npm install";
+4. Instale as dependências necessárias à execução da API através do comando "npm install";
 
-- No raiz do projeto, renomeie `.env.example` para `.env` e adicione os valores das variáveis "PORT" (porta sugerida "8080"), "MONGODB_URL" (string de conexão com o banco de dados) e "SECRET" (chave RSA). Elas são necessárias para a execução da API em sua máquina.
+5. No raiz do projeto, renomeie `.env.example` para `.env` e adicione os valores das variáveis "PORT" (porta sugerida "8080"), "MONGODB_URL" (string de conexão com o banco de dados) e "SECRET" (chave RSA). Elas são necessárias para a execução da API em sua máquina.
 
-- Para executar a API, utilize o comando "npm start" no seu terminal;
+6. Para executar a API, utilize o comando "npm start" no seu terminal;
 
-- Feito os devidos "commits", para subir o projeto no seu GitHub, basta executar o comando "git push origin feature/<sua_branch>";
+7. Feito os devidos "commits", para subir o projeto no seu GitHub, basta executar o comando "git push origin feature/<sua_branch>";
 
-- E finalize criando um novo "Pull Request" com as contribuições para o projeto original.     
+8. E finalize criando um novo "Pull Request" com as contribuições para o projeto original.     
 ```
       
 ## **Features e rotas**
