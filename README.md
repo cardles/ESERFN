@@ -96,34 +96,50 @@ Dito isto, reverter as estruturas sociais e, consequentemente, a territorialidad
       
 ## **Features e rotas**
       
+Esta API pode possui uma collection configurada no Insomnia, que pode ser acessada ao clicar o botão abaixo: 
+        
  [![Run in Insomnia}](https://insomnia.rest/images/run.svg)](https://insomnia.rest/run/?label=ESERFN&uri=https%3A%2F%2Fgithub.com%2Fcardles%2FESERFN%2Fblob%2Fmain%2Fsrc%2Fview%2FinsomniaCollectionESERFN.json)
 
-Esta API está sendo escutada na `porta 8080` e para que todas as rotas possam ser acessadas localmente é necessário usar `http://localhost:8080/` antes dos endpoints de requisição.
+Caso deseje utilizar outro REST Client, todas as rotas possam ser acessadas localmente através do endereço `http://localhost:8080/` antes dos endpoints de requisição.
+      
+      
+### _Início_
+      
+| Feature | Método | Rota |
+|---------|--------|------|
+| Exibe mensagem de início da API | GET | `/` |
+| Exibe motivo pelo qual esta API foi criada  | GET | `/sobre` |
+| Exibe o nome da criadora e como falar com ela | GET | `/contato` |
 
       
-### _Manipulando registros como pessoa usuária_
+### _Usuárias_
+      
+| Feature | Método | Rota |
+|---------|--------|------|
+| Cria nova usuária no sistema | POST | `/usuaria/criar` |
+| Faz login na conta cadastrada | POST | `/usuaria/entrar` |
+      
+      
+### _Minhas memórias (requer autenticação)_
+      
+| Feature | Método | Rota |
+|---------|--------|------|
+| Exibe as memórias já criadas pela usuária | GET | `/minhas-memorias` |
+| Permite criar uma nova memória  | GET | `/minhas-memorias/criar` |
+| Permite editar uma memória por id | GET | `/minhas-memorias/editar/{id}` |
+| Permite apagar uma memória por id | GET | `/minhas-memorias/apagar/{id}` |
+   
+      
+### _Nossas memórias_
 
 | Feature | Método | Rota |
 |---------|--------|------|
-| Lista de todas as candidaturas negras de 2020 | GET | `/candidaturas-negras` |
-| Lista de todos os movimentos populares | GET | `/candidaturas-negras/lista-movimentos` |
-| Filtro de candidaturas negras por cidade | GET | `/candidaturas-negras/cidade/<nome-da-cidade>` |
-| Lista de candidaturas negras eleitas em 2020 | GET | `/candidaturas-negras/eleitas2020` |
+| Lista todas as memórias | GET | `/nossas-memorias` |
+| Filtra as memórias por cidade | GET | `/nossas-memorias/cidade` |
+| Busca de memória por id | GET | `/nossas-memorias/{id}` |
 
-### _Manipulando registros como pessoa administradora (requer token de autenticação)_
 
-| Feature | Método | Rota |
-|---------|--------|------|
-| Login de pessoa administradora | POST | `/admin/login` |
-| Cadastro de candidaturas negras | POST | `/candidaturas-negras` |
-| Atualização de cadastro de candidaturas por id | PUT | `/candidaturas-negras/:_id` |
-| Remoção de candidaturas que não são de movimentos sociais | DELETE | `/candidaturas-negras/participacao?movimentoSocial=unidefined` |
-| Cadastro de pessoa administradora | POST | `/admin/` |
-| Lista de todas as pessoas administradoras | GET | `/admin` |
-| Atualização de cadastro de pessoa administradora por id | PUT | `/admin/:id` |
-| Remoção de pessoa administradora por email | DELETE | `/admin?email=<email_da_pessoa_administradora_castrada>` |
 
-      
 <hr>
 
 Criado com :black_heart: por **Letícia Cardoso** e o apoio das professoras, monitoras, e colegas de turma da {reprograma}.
