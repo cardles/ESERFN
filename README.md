@@ -38,7 +38,7 @@
 
 Este projeto foi criado como Trabalho Final do curso intensivo da {reprograma} em 2021 e sua execução é dividida em duas frentes: a primeira, esta API, tem como função criar um banco de dados com as histórias de diversas mulheres de São Paulo e Recife e sua relação com a cidade, dotadas de informações de localização geográfica; enquanto a segunda trata-se de uma geoespacialização dessas histórias, criando um mapa coletivo e interativo a ser disponibilizado online.
 
-![Alt Text](https://media.giphy.com/media/3ov9jJJoFINnXlgeBy/giphy.gif)
+![Mulher inserindo pino em um mapa](https://media.giphy.com/media/3ov9jJJoFINnXlgeBy/giphy.gif)
 
   
 <br>
@@ -48,6 +48,8 @@ Este projeto foi criado como Trabalho Final do curso intensivo da {reprograma} e
 As opressões de gênero, classe, raça e sexualidade compõem uma cultura que se reflete no espaço urbano: a cultura segregação, da exclusão. Ao impor papéis de gênero baseados no sexo biológico, a estrutura capitalista e patriarcal confina as mulheres aos limites de suas casas, o que faz com que tenhamos maior dificuldade de deslocamento e menos acesso aos espaços públicos - o que gera mais segregação socioespacial e menor representatividade, apropriação da cidade e identificação.  
 A Pesquisa de Origem e Destino feita pelo Metrô em 2017 indica que, no geral, mulheres se deslocam menos que homens e percorrem distâncias mais curtas. O grau de instrução, a renda, o local de residência e atribuições familiares são fatores que restrigem o deslocamento das mulheres às proximidades de sua casa, geralmente utilizando transporte público ou se locomovendo a pé.  
 Dito isto, reverter as estruturas sociais e, consequentemente, a territorialidade já imposta é um plano à longo prazo. Aos poucos, as mulheres tem vivenciado mais o espaço público e, como forma de incentivo e com o objetivo de gerar maior pertencimento e identificação com esses espaços, para que possamos ocupá-los cada vez mais, essa API foi criada.
+  
+![Marge, de Os Simpsons, queimando um sutiã](https://media.giphy.com/media/5Qus3kDUqNHeo/giphy.gif)
   
 <br>
 
