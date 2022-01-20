@@ -19,19 +19,8 @@
 </h3>
 
 > API que registra memórias de mulheres cis e trans no território urbano, emglobando a Região Metropolitana de São Paulo e na Região Metropolitana de Recife. Dessa forma, vamos construir uma coleção dessas memórias, que possibilitará um futuro mapeamento coletivo. Nele, as histórias das mulheres estarão espacializadas e eternizadas, a fim de fomentar um sentimento de pertencimento e apropriação da cidade.
-      
-<br>
-      
-## **Sumário**
-
-- [Apresentação](#apresentação)
-- [Contextualização](#contextualização)
-- [Funcionalidades](#funcionalidades)
-- [Tecnologias, bibliotecas e dependências](#tecnologias-bibliotecas-e-dependências)
-- [Deploy da API](#deploy-da-api-earth-americas)
-- [Instruções para instalação e contribuições no projeto](#instruções-para-instalação-e-contribuições-no-projeto)
-- [Features e rotas](#features-e-rotas)
-      
+   
+  
 <br>
       
 ## **Apresentação** :pencil:
@@ -51,6 +40,7 @@ Este projeto foi criado como Trabalho Final do curso intensivo da {reprograma} e
   
 ![Marge, de Os Simpsons, queimando um sutiã](https://media.giphy.com/media/5Qus3kDUqNHeo/giphy.gif)
   
+  
 <br>
 
 ## **Funcionalidades** :file_folder:
@@ -64,6 +54,7 @@ Este projeto foi criado como Trabalho Final do curso intensivo da {reprograma} e
 - [X] Filtar memórias por cidade
 - [X] Filtar memórias por id
 
+  
 <br>
       
 ## **Tecnologias, bibliotecas e dependências** :floppy_disk:
