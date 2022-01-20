@@ -38,7 +38,7 @@
 
 Este projeto foi criado como Trabalho Final do curso intensivo da {reprograma} em 2021 e sua execução é dividida em duas frentes: a primeira, esta API, tem como função criar um banco de dados com as histórias de diversas mulheres de São Paulo e Recife e sua relação com a cidade, dotadas de informações de localização geográfica; enquanto a segunda trata-se de uma geoespacialização dessas histórias, criando um mapa coletivo e interativo a ser disponibilizado online.
 
-<https://giphy.com/gifs/awesomenesstv-yes-excited-dennis-wot-QWFKtdYD8ycCoLKzaI>
+<a href=https://giphy.com/gifs/awesomenesstv-yes-excited-dennis-wot-QWFKtdYD8ycCoLKzaI>
   
 <br>
       
