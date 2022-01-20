@@ -144,7 +144,6 @@ Caso deseje utilizar outro REST Client, todas as rotas podem ser acessadas local
 | Filtra as memórias por cidade | GET | `/nossas-memorias/cidade` |
 | Busca de memória por id | GET | `/nossas-memorias/{id}` |
 
-
-<hr>
 <br>
+<hr>
 Criado com :black_heart: por **Letícia Cardoso** e o apoio das professoras, monitoras, e colegas de turma da {reprograma}.
