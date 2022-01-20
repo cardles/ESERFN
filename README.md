@@ -83,8 +83,9 @@ Dito isto, reverter as estruturas sociais e, consequentemente, a territorialidad
 <br>
       
 ## **Deploy da API**
-      
-<a href="https://eserfn.herokuapp.com/"><img alt="E se essas ruas fossem nossas?">    
+
+Você pode acessar o deploy no heroku pelo clicando no título "E se essas ruas fossem nossas?" ou no botão abaixo:
+<a href="https://eserfn.herokuapp.com/"><img alt="Deploy on Heroku" src="https://img.shields.io/badge/deploy-heroku.com-blueviolet">  
   
   
 <br>
