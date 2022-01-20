@@ -11,8 +11,7 @@
 
 <h1 align="center">
   <img src="public/images/eserfn_logo.png" alt="duas mãos criando manipulando um mapa e as iniciais do nome do projeto." width="750">
-  <a align="center" href="https://eserfn.herokuapp.com/"><img alt="E se essas ruas fossem nossas?"> 
-  <p align="center">E se essas ruas fossem nossas?</p>
+  <a align="center" href="https://eserfn.herokuapp.com/"><img alt="E se essas ruas fossem nossas?">
 </h1>
 <h3 align="center">
   <p>O pertencimento feminino ao espaço público</p>
