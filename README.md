@@ -34,13 +34,13 @@
       
 <br>
       
-## **Apresentação**
+## **Apresentação** :triangular_flag_on_post:
 
 Este projeto foi criado como Trabalho Final do curso intensivo da {reprograma} em 2021 e sua execução é dividida em duas frentes: a primeira, esta API, tem como função criar um banco de dados com as histórias de diversas mulheres de São Paulo e Recife e sua relação com a cidade, dotadas de informações de localização geográfica; enquanto a segunda trata-se de uma geoespacialização dessas histórias, criando um mapa coletivo e interativo a ser disponibilizado online.
       
 <br>
       
-## **Contextualização**
+## **Contextualização** :memo:
 
 As opressões de gênero, classe, raça e sexualidade compõem uma cultura que se reflete no espaço urbano: a cultura segregação, da exclusão. Ao impor papéis de gênero baseados no sexo biológico, a estrutura capitalista e patriarcal confina as mulheres aos limites de suas casas, o que faz com que tenhamos maior dificuldade de deslocamento e menos acesso aos espaços públicos - o que gera mais segregação socioespacial e menor representatividade, apropriação da cidade e identificação.  
 A Pesquisa de Origem e Destino feita pelo Metrô em 2017 indica que, no geral, mulheres se deslocam menos que homens e percorrem distâncias mais curtas. O grau de instrução, a renda, o local de residência e atribuições familiares são fatores que restrigem o deslocamento das mulheres às proximidades de sua casa, geralmente utilizando transporte público ou se locomovendo a pé.  
@@ -48,7 +48,7 @@ Dito isto, reverter as estruturas sociais e, consequentemente, a territorialidad
   
 <br>
 
-## **Funcionalidades**
+## **Funcionalidades** :file_folder:
 
 - [X] Criar usuária
 - [X] Fazer login com e-mail e senha
@@ -61,7 +61,7 @@ Dito isto, reverter as estruturas sociais e, consequentemente, a territorialidad
 
 <br>
       
-## **Tecnologias, bibliotecas e dependências**
+## **Tecnologias, bibliotecas e dependências** :floppy_disk:
 
 <p align="left">
   <a>
@@ -82,7 +82,7 @@ Dito isto, reverter as estruturas sociais e, consequentemente, a territorialidad
       
 <br>
       
-## **Deploy da API** :earth_americas:
+## **Deploy da API** :rocket:
 
 Você pode acessar o deploy no heroku clicando no título "E se essas ruas fossem nossas?" ou abaixo:  
 <a href="https://eserfn.herokuapp.com/"><img alt="ESERFN?">
@@ -90,7 +90,7 @@ Você pode acessar o deploy no heroku clicando no título "E se essas ruas fosse
   
 <br>
       
-## **Instruções para instalação e contribuições no projeto**
+## **Instruções para instalação e contribuições no projeto** :computer:
       
 1. Faça um `fork` do projeto;
 
@@ -110,7 +110,7 @@ Você pode acessar o deploy no heroku clicando no título "E se essas ruas fosse
 
 <br>
       
-## **Features e rotas**
+## **Features e rotas** :earth_americas: 
       
 Esta API pode possui uma collection configurada no Insomnia, que pode ser acessada ao clicar o botão abaixo: 
         
