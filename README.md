@@ -17,7 +17,7 @@
   <p>O pertencimento feminino ao espaço público</p>
 </h3>
 
-> API que registra memórias de mulheres cisgênero/transgênero no território urbano (RMSP e RMR) com a finalidade de produzir e disponibilizar um mapeamento coletivo no qual as memórias estarão geoespacializadas e eternizadas, a fim de gerar um sentimento de pertencimento à cidade.  
+> API que registra memórias de mulheres cis e trans no território urbano, emglobando a Região Metropolitana de São Paulo e na Região Metropolitana de Recife. Dessa forma, vamos construir uma coleção dessas memórias, que possibilitará um futuro mapeamento coletivo. Nele, as histórias das mulheres estarão espacializadas e eternizadas, a fim de fomentar um sentimento de pertencimento e apropriação da cidade.
 
       
 ## **Sumário**
@@ -33,7 +33,7 @@
 
 ## **Apresentação**
 
-Apresente seu projeto.
+Este projeto foi criado como Trabalho Final do curso intensivo da {reprograma} em 2021 e sua execução é dividida em duas frentes: a primeira, esta API, tem como função criar um banco de dados com as histórias de diversas mulheres de São Paulo e Recife e sua relação com a cidade, dotadas de informações de localização geográfica; enquanto a segunda trata-se de uma geoespacialização dessas histórias, criando um mapa coletivo e interativo a ser disponibilizado online.
       
 
 ## **Contextualização**
