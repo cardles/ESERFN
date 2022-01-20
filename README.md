@@ -91,6 +91,8 @@ Este projeto foi criado como Trabalho Final do curso intensivo da {reprograma} e
 
 Você pode acessar o deploy no heroku clicando no título "E se essas ruas fossem nossas?" ou abaixo:  
 <a href="https://eserfn.herokuapp.com/"><img alt="ESERFN?">
+
+![Foguete sendo lançado](https://media.giphy.com/media/ei9WhlrxVjuezs25Vq/giphy.gif)
   
   
 <br>
