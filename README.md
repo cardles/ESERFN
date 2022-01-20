@@ -154,4 +154,4 @@ Caso deseje utilizar outro REST Client, todas as rotas podem ser acessadas local
 
 <br>
 <hr>
-Criado com :purple_heart: por Letícia Cardoso e o apoio das professoras, monitoras, e colegas de turma da {reprograma}.
+Criado com :purple_heart: por <a href="https://www.linkedin.com/in/cardles-dev/"><img alt="Letícia Cardoso"> e o apoio das professoras, monitoras, e colegas de turma da {reprograma}.
