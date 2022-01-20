@@ -45,9 +45,14 @@ Dito isto, reverter as estruturas sociais e, consequentemente, a territorialidad
 
 ## **Funcionalidades**
 
-- [X] Liste
-- [X] As
-- [X] Funcionalidades
+- [X] Criar usuária
+- [X] Fazer login com e-mail e senha
+- [X] Criar suas memórias
+- [X] Editar memórias
+- [X] Excluir memórias
+- [X] Visualizar memórias
+- [X] Filtar memórias por cidade
+- [X] Filtar memórias por id
 
 
 ## **Tecnologias, bibliotecas e dependências**
