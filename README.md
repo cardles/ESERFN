@@ -95,6 +95,8 @@ Dito isto, reverter as estruturas sociais e, consequentemente, a territorialidad
 
       
 ## **Features e rotas**
+      
+ [![Run in Insomnia}](https://insomnia.rest/images/run.svg)](https://insomnia.rest/run/?label=ESERFN&uri=https%3A%2F%2Fgithub.com%2Fcardles%2FESERFN%2Fblob%2Fmain%2Fsrc%2Fview%2FinsomniaCollectionESERFN.json)
 
 Esta API está sendo escutada na `porta 8080` e para que todas as rotas possam ser acessadas localmente é necessário usar `http://localhost:8080/` antes dos endpoints de requisição.
 
