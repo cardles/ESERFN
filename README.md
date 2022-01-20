@@ -77,9 +77,9 @@ Dito isto, reverter as estruturas sociais e, consequentemente, a territorialidad
 ## **Instruções para instalação e contribuições no projeto**
       
 
-1. Faça um `fork` do projeto;
+> Faça um `fork` do projeto;
 
-2. Copie o endereço do fork realizado e, no prompt de comando da sua máquina, realize o clone do projeto;
+2. Copie o _endereço do fork_ realizado e, no prompt de comando da sua máquina, realize o clone do projeto;
 
 3. Crie uma branch para realizar suas contribuições;
 
