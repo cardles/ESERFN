@@ -73,26 +73,26 @@ Dito isto, reverter as estruturas sociais e, consequentemente, a territorialidad
   </a> 
 </p>
 
+      
 ## **Instruções para instalação e contribuições no projeto**
+      
+```
+- Faça um "fork" do projeto;
 
-- Faça um `fork` do projeto através do link (<https://github.com/priscilaestevao/pretitudes-project-reprograma/fork>);
+- Copie o endereço do fork realizado e, no prompt de comando da sua máquina, realize o clone do projeto;
 
-- Copie o código do _fork_ realizado e, no _prompt de comando_ da sua máquina, realize o clone do projeto através do `git clone <link_do_fork_do_repositorio>`;
+- Crie uma branch para realizar suas contribuições;
 
-- Crie uma _branch_ para realizar suas contribuições `git checkout -b feature/<sua_branch>`;
+- Instale as dependências necessárias à execução da API através do comando "npm install";
 
-- Instale as dependências necessárias à execução da API através do comando `npm install`;
+- No raiz do projeto, renomeie `.env.example` para `.env` e adicione os valores das variáveis "PORT" (porta sugerida "8080"), "MONGODB_URL" (string de conexão com o banco de dados) e "SECRET" (chave RSA). Elas são necessárias para a execução da API em sua máquina.
 
-- No raiz do projeto, renomeie `.env.example` para `.env` e adicione os valores das variáveis `PORT` (porta sugerida `8080`), `MONGODB_URL` (string de conexão com o banco de dados) e `SECRET` (chave RSA). Elas são necessárias para a execução da API em sua máquina
+- Para executar a API, utilize o comando "npm start" no seu terminal;
 
-- Para executar a API, utilize o comando `npm start` no seu terminal;
+- Feito os devidos "commits", para subir o projeto no seu GitHub, basta executar o comando "git push origin feature/<sua_branch>";
 
-- Após suas contribuições no projeto, realize o _commit_ com o comando `git commit -m 'sua mensagem'`;
-
-- Para subir o projeto no seu GitHub, basta executar o comando `git push origin feature/<sua_branch>`;
-
-- E finalize criando um novo _Pull Request_ com as contribuições para o projeto original.
-
+- E finalize criando um novo "Pull Request" com as contribuições para o projeto original.     
+```
       
 ## **Features e rotas**
 
