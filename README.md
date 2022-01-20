@@ -78,10 +78,13 @@ Este projeto foi criado como Trabalho Final do curso intensivo da {reprograma} e
       
 <br>
       
-## **Deploy da API** :rocket:
+## **Deploy e documentação** :rocket:
 
 Você pode acessar o deploy no heroku clicando no título "E se essas ruas fossem nossas?" ou logo abaixo: 
 > <a href="https://eserfn.herokuapp.com/"><img alt="ESERFN"> :star2:
+      
+Acesse também a documentação, criada com o Swagger:
+> <a href="https://eserfn.herokuapp.com/api-docs/"><img alt="ESERFN Documentação"> :star2:
 
 ![Foguete sendo lançado](https://media.giphy.com/media/SsIaiDfuGJJS99oC5j/giphy.gif)
   
@@ -116,7 +119,12 @@ Esta API pode possui uma collection configurada no Insomnia, que pode ser acessa
 
 Caso deseje utilizar outro REST Client, todas as rotas podem ser acessadas localmente através do endereço `http://localhost:8080/` antes dos endpoints de requisição.
       
+### _Documentação_
       
+| Feature | Método | Endpoint |
+|---------|--------|------|
+| Documentação Swagger | GET | `/api-docs` |
+
 ### _Início_
       
 | Feature | Método | Endpoint |
@@ -151,6 +159,8 @@ Caso deseje utilizar outro REST Client, todas as rotas podem ser acessadas local
 | Lista todas as memórias | GET | `/nossas-memorias` |
 | Filtra as memórias por cidade | GET | `/nossas-memorias/cidade` |
 | Busca de memória por id | GET | `/nossas-memorias/{id}` |
+      
+
 
 <br>
 <hr>
