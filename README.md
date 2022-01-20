@@ -18,7 +18,6 @@
 </h3>
 
 > API que registra memórias de mulheres cisgênero/transgênero no território urbano (RMSP e RMR) com a finalidade de produzir e disponibilizar um mapeamento coletivo no qual as memórias estarão geoespacializadas e eternizadas, a fim de gerar um sentimento de pertencimento à cidade.  
-> Status: **Concluído** :heavy_check_mark:
 
       
 ## **Sumário**
@@ -117,22 +116,10 @@ Esta API está sendo escutada na `porta 8080` e para que todas as rotas possam s
 | Remoção de pessoa administradora por email | DELETE | `/admin?email=<email_da_pessoa_administradora_castrada>` |
 
       
-## **Referências**
-
-[{reprograma} - Projeto Final](https://github.com/reprograma/on7-porto-s17-s18-projeto-livre)
-
-[Como escrever um README.md sensacional no Github](https://dev.to/reginadiana/como-escrever-um-readme-md-sensacional-no-github-4509#o-que-%C3%A9-o-readme)
-
-[Inspiração: Pokemons API (autoria: @AnnaNee)](https://github.com/AnnaNee/pokemons-api)
-
-[Tribunal Superior Eleitoral](https://www.tse.jus.br/)
-
-[Votos Antirracistas](https://votosantirracistas2020.com.br/)
-
 <hr>
 
-Criado com :black_heart: por **Letícia Cardoso** e o apoio das professoras, monitoras, orientação pedagógica e minhas queridas companheiras de turma.
-
+Criado com :black_heart: por **Letícia Cardoso** e o apoio das professoras, monitoras, e colegas de turma da {reprograma}.
+      
 
 
 ## rotas
