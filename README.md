@@ -38,9 +38,7 @@ Este projeto foi criado como Trabalho Final do curso intensivo da {reprograma} e
 - A Pesquisa de Origem e Destino feita pelo Metrô em 2017 indica que, no geral, mulheres se deslocam menos que homens e percorrem distâncias mais curtas. O grau de instrução, a renda, o local de residência e atribuições familiares são fatores que restrigem o deslocamento das mulheres às proximidades de sua casa, geralmente utilizando transporte público ou se locomovendo a pé.  
 - Dito isto, reverter as estruturas sociais e, consequentemente, a territorialidade já imposta é um plano à longo prazo. Aos poucos, as mulheres tem vivenciado mais o espaço público e, como forma de incentivo e com o objetivo de gerar maior pertencimento e identificação com esses espaços, para que possamos ocupá-los cada vez mais, essa API foi criada.
   
-![Marge, de Os Simpsons, queimando um sutiã](https://media.giphy.com/media/5Qus3kDUqNHeo/giphy.gif)
-  
-![Marge, de Os Simpsons, queimando um sutiã](https://media.giphy.com/media/3otOKqBEdgCQ9RbtUA/giphy.gif)
+![Mulher lendo livro sobre "Clube da luta feminista"](https://media.giphy.com/media/3otOKqBEdgCQ9RbtUA/giphy.gif)
   
   
 <br>
