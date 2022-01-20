@@ -76,8 +76,8 @@ Dito isto, reverter as estruturas sociais e, consequentemente, a territorialidad
       
 ## **Instruções para instalação e contribuições no projeto**
       
-```
-1. Faça um "fork" do projeto;
+
+1. Faça um `fork` do projeto;
 
 2. Copie o endereço do fork realizado e, no prompt de comando da sua máquina, realize o clone do projeto;
 
@@ -92,7 +92,7 @@ Dito isto, reverter as estruturas sociais e, consequentemente, a territorialidad
 7. Feito os devidos "commits", para subir o projeto no seu GitHub, basta executar o comando "git push origin feature/<sua_branch>";
 
 8. E finalize criando um novo "Pull Request" com as contribuições para o projeto original.     
-```
+
       
 ## **Features e rotas**
 
