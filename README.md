@@ -26,7 +26,7 @@
 - [Apresentação](#apresentação)
 - [Contextualização](#contextualização)
 - [Funcionalidades](#funcionalidades)
-- [Tecnologias, dependências e bibliotecas](#tecnologias-dependências-e-bibliotecas)
+- [Tecnologias, bibliotecas e dependências](#tecnologias-bibliotecas-e-dependências)
 - [Instruções para instalação e contribuições no projeto](#instruções-para-instalação-e-contribuições-no-projeto)
 - [Features e rotas](#features-e-rotas)
       
@@ -106,12 +106,12 @@ Esta API pode possui uma collection configurada no Insomnia, que pode ser acessa
         
 [![Run in Insomnia}](https://insomnia.rest/images/run.svg)](https://insomnia.rest/run/?label=ESERFN&uri=https%3A%2F%2Fgithub.com%2Fcardles%2FESERFN%2Fblob%2Fmain%2Fsrc%2Fview%2FinsomniaCollectionESERFN.json)
 
-Caso deseje utilizar outro REST Client, todas as rotas possam ser acessadas localmente através do endereço `http://localhost:8080/` antes dos endpoints de requisição.
+Caso deseje utilizar outro REST Client, todas as rotas podem ser acessadas localmente através do endereço `http://localhost:8080/` antes dos endpoints de requisição.
       
       
 ### _Início_
       
-| Feature | Método | Rota |
+| Feature | Método | Endpoint |
 |---------|--------|------|
 | Exibe mensagem de início da API | GET | `/` |
 | Exibe motivo pelo qual esta API foi criada  | GET | `/sobre` |
@@ -120,7 +120,7 @@ Caso deseje utilizar outro REST Client, todas as rotas possam ser acessadas loca
       
 ### _Usuárias_
       
-| Feature | Método | Rota |
+| Feature | Método | Endpoint |
 |---------|--------|------|
 | Cria nova usuária no sistema | POST | `/usuaria/criar` |
 | Faz login na conta cadastrada | POST | `/usuaria/entrar` |
@@ -128,7 +128,7 @@ Caso deseje utilizar outro REST Client, todas as rotas possam ser acessadas loca
       
 ### _Minhas memórias (requer autenticação)_
       
-| Feature | Método | Rota |
+| Feature | Método | Endpoint |
 |---------|--------|------|
 | Exibe as memórias já criadas pela usuária | GET | `/minhas-memorias` |
 | Permite criar uma nova memória  | GET | `/minhas-memorias/criar` |
@@ -138,7 +138,7 @@ Caso deseje utilizar outro REST Client, todas as rotas possam ser acessadas loca
       
 ### _Nossas memórias_
 
-| Feature | Método | Rota |
+| Feature | Método | Endpoint |
 |---------|--------|------|
 | Lista todas as memórias | GET | `/nossas-memorias` |
 | Filtra as memórias por cidade | GET | `/nossas-memorias/cidade` |
@@ -146,5 +146,5 @@ Caso deseje utilizar outro REST Client, todas as rotas possam ser acessadas loca
 
 
 <hr>
-
+<br>
 Criado com :black_heart: por **Letícia Cardoso** e o apoio das professoras, monitoras, e colegas de turma da {reprograma}.
