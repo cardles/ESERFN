@@ -10,7 +10,8 @@
 </p>
 
 <h1 align="center">
-  <img src="public/images/eserfn_logo.png" alt="duas mãos criando manipulando um mapa e as iniciais do nome do projeto." width="750">  
+  <img src="public/images/eserfn_logo.png" alt="duas mãos criando manipulando um mapa e as iniciais do nome do projeto." width="750">
+  <br>
   <a align="center" href="https://eserfn.herokuapp.com/"><img alt="E se essas ruas fossem nossas?">
 </h1>
 <h3 align="center">
