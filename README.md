@@ -27,6 +27,7 @@
 - [Contextualização](#contextualização)
 - [Funcionalidades](#funcionalidades)
 - [Tecnologias, bibliotecas e dependências](#tecnologias-bibliotecas-e-dependências)
+- [Deploy da API](#deploy-da-api)
 - [Instruções para instalação e contribuições no projeto](#instruções-para-instalação-e-contribuições-no-projeto)
 - [Features e rotas](#features-e-rotas)
       
@@ -78,6 +79,13 @@ Dito isto, reverter as estruturas sociais e, consequentemente, a territorialidad
 </p>
 
       
+<br>
+      
+## **Deploy da API**
+      
+<a href="https://eserfn.herokuapp.com/"><img alt="Deploy on Heroku" src="https://img.shields.io/badge/deploy-heroku.com-blueviolet">    
+  
+  
 <br>
       
 ## **Instruções para instalação e contribuições no projeto**
@@ -146,4 +154,4 @@ Caso deseje utilizar outro REST Client, todas as rotas podem ser acessadas local
 
 <br>
 <hr>
-Criado com :black_heart: por _Letícia Cardoso_ e o apoio das professoras, monitoras, e colegas de turma da {reprograma}.
+Criado com :black_heart: por Letícia Cardoso e o apoio das professoras, monitoras, e colegas de turma da {reprograma}.
