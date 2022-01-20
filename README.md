@@ -24,24 +24,26 @@
 
 - [Apresentação](#apresentação)
 - [Contextualização](#contextualização)
-- [Fonte dos dados](#fonte-dos-dados)
 - [Funcionalidades](#funcionalidades)
 - [Tecnologias, dependências e bibliotecas](#tecnologias-dependências-e-bibliotecas)
 - [Instruções para instalação e contribuições no projeto](#instruções-para-instalação-e-contribuições-no-projeto)
 - [Features e rotas](#features-e-rotas)
-- [Referências](#referências)
-
+      
+<br>
+      
 ## **Apresentação**
 
 Este projeto foi criado como Trabalho Final do curso intensivo da {reprograma} em 2021 e sua execução é dividida em duas frentes: a primeira, esta API, tem como função criar um banco de dados com as histórias de diversas mulheres de São Paulo e Recife e sua relação com a cidade, dotadas de informações de localização geográfica; enquanto a segunda trata-se de uma geoespacialização dessas histórias, criando um mapa coletivo e interativo a ser disponibilizado online.
       
-
+<br>
+      
 ## **Contextualização**
 
 As opressões de gênero, classe, raça e sexualidade compõem uma cultura que se reflete no espaço urbano: a cultura segregação, da exclusão. Ao impor papéis de gênero baseados no sexo biológico, a estrutura capitalista e patriarcal confina as mulheres aos limites de suas casas, o que faz com que tenhamos maior dificuldade de deslocamento e menos acesso aos espaços públicos - o que gera mais segregação socioespacial e menor representatividade, apropriação da cidade e identificação.  
 A Pesquisa de Origem e Destino feita pelo Metrô em 2017 indica que, no geral, mulheres se deslocam menos que homens e percorrem distâncias mais curtas. O grau de instrução, a renda, o local de residência e atribuições familiares são fatores que restrigem o deslocamento das mulheres às proximidades de sua casa, geralmente utilizando transporte público ou se locomovendo a pé.  
 Dito isto, reverter as estruturas sociais e, consequentemente, a territorialidade já imposta é um plano à longo prazo. Aos poucos, as mulheres tem vivenciado mais o espaço público e, como forma de incentivo e com o objetivo de gerar maior pertencimento e identificação com esses espaços, para que possamos ocupá-los cada vez mais, essa API foi criada.
-      
+  
+<br>
 
 ## **Funcionalidades**
 
@@ -54,7 +56,8 @@ Dito isto, reverter as estruturas sociais e, consequentemente, a territorialidad
 - [X] Filtar memórias por cidade
 - [X] Filtar memórias por id
 
-
+<br>
+      
 ## **Tecnologias, bibliotecas e dependências**
 
 <p align="left">
@@ -74,9 +77,10 @@ Dito isto, reverter as estruturas sociais e, consequentemente, a territorialidad
 </p>
 
       
+<br>
+      
 ## **Instruções para instalação e contribuições no projeto**
       
-
 1. Faça um `fork` do projeto;
 
 2. Copie o _endereço_ do `fork` realizado e, no `prompt de comando` da sua máquina, realize o clone do projeto;
@@ -93,12 +97,13 @@ Dito isto, reverter as estruturas sociais e, consequentemente, a territorialidad
 
 8. E não esqueça de criar um novo _Pull Request_ com as contribuições para o projeto original.     
 
+<br>
       
 ## **Features e rotas**
       
 Esta API pode possui uma collection configurada no Insomnia, que pode ser acessada ao clicar o botão abaixo: 
         
- [![Run in Insomnia}](https://insomnia.rest/images/run.svg)](https://insomnia.rest/run/?label=ESERFN&uri=https%3A%2F%2Fgithub.com%2Fcardles%2FESERFN%2Fblob%2Fmain%2Fsrc%2Fview%2FinsomniaCollectionESERFN.json)
+[![Run in Insomnia}](https://insomnia.rest/images/run.svg)](https://insomnia.rest/run/?label=ESERFN&uri=https%3A%2F%2Fgithub.com%2Fcardles%2FESERFN%2Fblob%2Fmain%2Fsrc%2Fview%2FinsomniaCollectionESERFN.json)
 
 Caso deseje utilizar outro REST Client, todas as rotas possam ser acessadas localmente através do endereço `http://localhost:8080/` antes dos endpoints de requisição.
       
