@@ -63,7 +63,6 @@ Dito isto, reverter as estruturas sociais e, consequentemente, a territorialidad
     <a href="https://nodejs.org/pt-br/"><img alt="Node version" src="https://img.shields.io/badge/NodeJS-16.13.1-green">
     <a href="https://www.mongodb.com/cloud/atlas"><img alt="Mongodb Atlas" src="https://img.shields.io/badge/MongoDB%20Atlas-green">
     <a href="https://herokuapp.com/"><img alt="Deploy on Heroku" src="https://img.shields.io/badge/Heroku-green">
-    <br/>
     <a href="https://www.npmjs.com/"><img alt="npm version" src="https://img.shields.io/badge/npm-8.1.2-green">
     <a href="https://expressjs.com/pt-br/"><img alt="Express version" src="https://img.shields.io/badge/express-4.17.1-green">
     <a href="https://mongoosejs.com/"><img alt="Mongoose version" src="https://img.shields.io/badge/mongoose-6.0.3-green">
