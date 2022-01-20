@@ -155,5 +155,6 @@ Caso deseje utilizar outro REST Client, todas as rotas podem ser acessadas local
 <br>
 <hr>
 Criado com :purple_heart: por <a href="https://www.linkedin.com/in/cardles-dev/"><img alt="Letícia Cardoso"></a> e o apoio das professoras, monitoras, e colegas de turma da {reprograma}.
+<br>
       
 ![Mulher batendo palmas](https://media.giphy.com/media/c4rB7DMXKgktG/giphy.gif)
