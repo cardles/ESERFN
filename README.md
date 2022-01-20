@@ -18,7 +18,8 @@
 </h3>
 
 > API que registra memórias de mulheres cis e trans no território urbano, emglobando a Região Metropolitana de São Paulo e na Região Metropolitana de Recife. Dessa forma, vamos construir uma coleção dessas memórias, que possibilitará um futuro mapeamento coletivo. Nele, as histórias das mulheres estarão espacializadas e eternizadas, a fim de fomentar um sentimento de pertencimento e apropriação da cidade.
-
+      
+<br>
       
 ## **Sumário**
 
