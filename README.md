@@ -80,8 +80,7 @@ Este projeto foi criado como Trabalho Final do curso intensivo da {reprograma} e
       
 ## **Deploy da API** :rocket:
 
-Você pode acessar o deploy no heroku clicando no título "E se essas ruas fossem nossas?" ou abaixo:  
-<a href="https://eserfn.herokuapp.com/"><img alt="ESERFN">:grey_question:
+Você pode acessar o deploy no heroku clicando no título "E se essas ruas fossem nossas?" ou aqui: <a href="https://eserfn.herokuapp.com/"><img alt="ESERFN">:grey_question:
 
 ![Foguete sendo lançado](https://media.giphy.com/media/SsIaiDfuGJJS99oC5j/giphy.gif)
   
