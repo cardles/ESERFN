@@ -28,7 +28,7 @@
 - [Contextualização](#contextualização)
 - [Funcionalidades](#funcionalidades)
 - [Tecnologias, bibliotecas e dependências](#tecnologias-bibliotecas-e-dependências)
-- [Deploy da API](#deploy-da-api)
+- [Deploy da API](#deploy-da-api-earth-americas)
 - [Instruções para instalação e contribuições no projeto](#instruções-para-instalação-e-contribuições-no-projeto)
 - [Features e rotas](#features-e-rotas)
       
