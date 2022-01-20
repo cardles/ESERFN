@@ -40,7 +40,7 @@ Este projeto foi criado como Trabalho Final do curso intensivo da {reprograma} e
   
 ![Marge, de Os Simpsons, queimando um sutiã](https://media.giphy.com/media/5Qus3kDUqNHeo/giphy.gif)
   
-![Marge, de Os Simpsons, queimando um sutiã](https://media.giphy.com/media/3o6ZsVvYJPaKy72fSg/giphy.gif)
+![Marge, de Os Simpsons, queimando um sutiã](https://media.giphy.com/media/3otOKqBEdgCQ9RbtUA/giphy.gif)
   
   
 <br>
