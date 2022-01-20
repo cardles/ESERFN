@@ -78,13 +78,13 @@ Este projeto foi criado como Trabalho Final do curso intensivo da {reprograma} e
       
 <br>
       
-## **Deploy e documentação** :rocket:
+## **Deploy no Heroku** :rocket:
 
 Você pode acessar o deploy no heroku clicando no título "E se essas ruas fossem nossas?" ou logo abaixo: 
-> <a href="https://eserfn.herokuapp.com/"><img alt="ESERFN"> :star2:
+> <a href="https://eserfn.herokuapp.com/"><img alt="ESERFN"></a> :star2:
       
 Acesse também a documentação, criada com o Swagger:
-> <a href="https://eserfn.herokuapp.com/api-docs/"><img alt="ESERFN Documentação"> :star2:
+> <a href="https://eserfn.herokuapp.com/api-docs/"><img alt="ESERFN Documentação"></a> :star2:
 
 ![Foguete sendo lançado](https://media.giphy.com/media/SsIaiDfuGJJS99oC5j/giphy.gif)
   
