@@ -10,12 +10,12 @@
     },
     "servers": [
         {
-            "url": "http://localhost:8080",
-            "description": "API de teste"
-        },
-        {
             "url": "https://eserfn.herokuapp.com/",
             "description": "API de produção"
+        },
+        {
+            "url": "http://localhost:8080",
+            "description": "API de teste"
         }
     ],
     "paths": {
