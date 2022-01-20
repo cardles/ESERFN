@@ -146,4 +146,4 @@ Caso deseje utilizar outro REST Client, todas as rotas podem ser acessadas local
 
 <br>
 <hr>
-Criado com :black_heart: por *Letícia Cardoso* e o apoio das professoras, monitoras, e colegas de turma da {reprograma}.
+Criado com :black_heart: por _Letícia Cardoso_ e o apoio das professoras, monitoras, e colegas de turma da {reprograma}.
