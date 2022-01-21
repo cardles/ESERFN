@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 require("dotenv").config();
 
-const MONGODB = process.env.MONGODB_URL;
+const MONGODB = process.env.MONGODB_URL || process.env.MONGODB_URI;
 
 const connect = () => {
     mongoose.connect(MONGODB, {
@@ -11,5 +11,6 @@ const connect = () => {
     .then(() => console.log("Database conectada com sucesso!"))
     .catch(err => console.log(err))
 };
+
 
 module.exports = { connect };
